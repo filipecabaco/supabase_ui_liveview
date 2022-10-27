@@ -8,7 +8,6 @@ defmodule SupabaseUiLiveview.Text do
     <span class={if @type == :danger, do: "text-[#FFF565]", else: ""}>
       <%= @inner_content %>
     </span>
-
     """
   end
 end

@@ -10,7 +10,7 @@ defmodule SupabaseUiLiveview.Icon do
   alias SupabaseUiLiveview.Icons.Twitter
   @icons [:azure, :bitbucket, :discord, :facebook, :github, :gitlab, :google, :twitter]
 
-  attr(:name, :atom, required: true, values: @icons)
+  attr(:name, :atom, required: true)
   attr(:size, :integer, default: 21)
 
   def render(%{name: :azure} = assigns) do
