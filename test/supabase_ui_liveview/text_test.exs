@@ -30,7 +30,7 @@ defmodule SupabaseUiLiveview.TextTest do
              """
            ) ==
              String.trim("""
-             <span class="danger">
+             <span class="text-[#FFF565]">
                <div>test</div>
              </span>
              """)
