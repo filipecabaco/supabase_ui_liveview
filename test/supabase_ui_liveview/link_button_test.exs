@@ -1,6 +1,6 @@
-defmodule SupabaseUiLiveview.ButtonTest do
+defmodule SupabaseUiLiveview.LinkButtonTest do
   use ExUnit.Case
-  alias SupabaseUiLiveview.Button
+  alias SupabaseUiLiveview.LinkButton
 
   import Phoenix.Component
   import Phoenix.LiveViewTest
@@ -8,7 +8,7 @@ defmodule SupabaseUiLiveview.ButtonTest do
   test "renders inner component" do
     assigns = %{}
 
-    assert render_component(Button,
+    assert render_component(LinkButton,
              inner_content: ~H"""
              testing
              """

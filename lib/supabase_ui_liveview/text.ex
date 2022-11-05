@@ -5,7 +5,7 @@ defmodule SupabaseUiLiveview.Text do
 
   def render(assigns) do
     ~H"""
-    <span class={if @type == :danger, do: "text-[#FFF565]", else: ""}>
+    <span class={if @type == :danger, do: "danger", else: ""}>
       <%= @inner_content %>
     </span>
     """
